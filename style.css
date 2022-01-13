@@ -1,0 +1,37 @@
+
+            * {
+                background-color: black;
+                color : rgb(39, 173, 35)
+            }
+
+            * {
+                border: solid;
+            }
+            .header{
+                background-color: cadetblue;
+                display: flex;
+                justify-content: space-between;
+            }
+            .sub-header{
+                background-color: blue;
+                display: flex;
+             flex-direction: column;
+              justify-content: first baseline
+                
+                
+            }
+            .item{
+                display:flex;
+                background-color: red;
+            }
+            .grid{
+               
+                background-color: aqua;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            .footer{
+                background-color: yellow;
+                justify-content:space-evenly;
+            }
